@@ -85,7 +85,7 @@ int main(void)
             int history_cmd = 0;
             for(int i =0; args[i] != NULL; i++)
             {
-                if(strcmp(args[i], "pichetodekho") == 0)
+                if(strcmp(args[i], "previous") == 0)
                 history_cmd = 1;
             }
 
